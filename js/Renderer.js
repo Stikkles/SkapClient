@@ -280,6 +280,13 @@ export default class Renderer {
                         ],
                     }
                 },
+                cicada3301: {
+                    textures: {
+                        array: [
+                            this.loadImage("./assets/skins/cicada3301.png"),
+                        ],
+                    }
+                },
             },
             entity: {
                 /** @type {{ [type: string]: HTMLImageElement }} */
